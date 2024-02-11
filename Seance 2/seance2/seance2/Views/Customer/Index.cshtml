@@ -1,0 +1,13 @@
+﻿@model seance2.Views.ViewModels.CustomerMovieVM
+
+
+	<h1>List of movie and customer</h1>
+
+	<h2>@Model.movie.name</h2>
+
+@foreach (var item in Model.customers)
+{
+	<h2>@item.Name</h2>
+			
+
+}
