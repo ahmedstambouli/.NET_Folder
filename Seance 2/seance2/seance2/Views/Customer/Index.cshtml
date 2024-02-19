@@ -7,7 +7,11 @@
 
 @foreach (var item in Model.customers)
 {
-	<h2>@item.Name</h2>
+	<h2>
+		@Html.ActionLink(@item.Name,"Show","Customer",new {Id=item.Id})
+		
+	</h2>
+
 			
 
 }
