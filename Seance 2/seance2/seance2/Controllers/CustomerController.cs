@@ -10,7 +10,7 @@ namespace seance2.Controllers
 		//get
 		public IActionResult Index()
 		{
-			Movie movies = new Movie(1,"Movie 1");
+			Movie movies = new Movie(1,"Movie 1",true,new DateTime(2000));
 
 
 			CustomerMovieVM customerVM = new CustomerMovieVM()

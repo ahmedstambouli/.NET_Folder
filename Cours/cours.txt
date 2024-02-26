@@ -1,0 +1,29 @@
+
+
+install nuget entityframoirquecore 
+	designe 
+	tools
+	databaseprovader
+
+connexion a la base de donnees avec code firest :
+	1)orm
+	2)seveur de base de donnees(ConnerxionString)
+	3)model
+	4)service de connexion (DIConst)
+	5)Class de context
+	6)migrations
+dons la folder migration il ya class (2 methode up [eli wa9tha ta3ml el update ] w el down [wa9tha bech tfas5 el migration ])
+
+
+code first :
+	Entité
+		Dbset<person> persons => creation automatique le table persone 
+
+Programm.cs 	---> DIContainer (config data base)
+		---> Pipeline
+		
+appdbcontext:dncontext
+	1)onconfiguring()	=>
+	2)onModelcreating()	=> 
+
+kif tebda fama class fiha methode w yeritimenha class fiha meme methode donc tetsama virtual ovrrid 

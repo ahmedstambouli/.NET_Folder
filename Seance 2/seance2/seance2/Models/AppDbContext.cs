@@ -12,5 +12,8 @@ namespace seance2.Models
 
 
 		public DbSet<Movie> movies { get; set; }
+		public DbSet<Customer> customers { get; set; }
+
+
 	}
 }

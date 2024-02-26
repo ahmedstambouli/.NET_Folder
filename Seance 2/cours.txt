@@ -22,7 +22,15 @@ code first :
 Programm.cs 	---> DIContainer (config data base)
 		---> Pipeline
 		
+appdbcontext:dncontext
+	1)onconfiguring()	=>
+	2)onModelcreating()	=> 
 
+kif tebda fama class fiha methode w yeritimenha class fiha meme methode donc tetsama virtual ovrrid 
 
+public virtual nom => lazyloading=> ycahrgi eli y7eb a3lihom bark
 
-
+[key] 
+[foreignkey("guere_id")]
+[required] 
+[maxlength]
