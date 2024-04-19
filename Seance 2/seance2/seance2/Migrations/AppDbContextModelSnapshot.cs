@@ -17,10 +17,25 @@ namespace seance2.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.25")
+                .HasAnnotation("ProductVersion", "6.0.21")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("CustomerMovie", b =>
+                {
+                    b.Property<int>("customersId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("movieId")
+                        .HasColumnType("int");
+
+                    b.HasKey("customersId", "movieId");
+
+                    b.HasIndex("movieId");
+
+                    b.ToTable("CustomerMovie");
+                });
 
             modelBuilder.Entity("seance2.Models.Customer", b =>
                 {
@@ -39,6 +54,52 @@ namespace seance2.Migrations
                     b.ToTable("customers");
                 });
 
+            modelBuilder.Entity("seance2.Models.Geners", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("GenerName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Geners");
+                });
+
+            modelBuilder.Entity("seance2.Models.MemberShipt", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DiscountRate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DurationInMonth")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("SignUpFree")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomerId");
+
+                    b.ToTable("memberShipts");
+                });
+
             modelBuilder.Entity("seance2.Models.Movie", b =>
                 {
                     b.Property<int>("Id")
@@ -46,6 +107,9 @@ namespace seance2.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int?>("genersId")
+                        .HasColumnType("int");
 
                     b.Property<string>("name")
                         .IsRequired()
@@ -59,7 +123,54 @@ namespace seance2.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("genersId");
+
                     b.ToTable("movies");
+                });
+
+            modelBuilder.Entity("CustomerMovie", b =>
+                {
+                    b.HasOne("seance2.Models.Customer", null)
+                        .WithMany()
+                        .HasForeignKey("customersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("seance2.Models.Movie", null)
+                        .WithMany()
+                        .HasForeignKey("movieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("seance2.Models.MemberShipt", b =>
+                {
+                    b.HasOne("seance2.Models.Customer", "Customer")
+                        .WithMany("memberShipts")
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+                });
+
+            modelBuilder.Entity("seance2.Models.Movie", b =>
+                {
+                    b.HasOne("seance2.Models.Geners", "geners")
+                        .WithMany("Movies")
+                        .HasForeignKey("genersId");
+
+                    b.Navigation("geners");
+                });
+
+            modelBuilder.Entity("seance2.Models.Customer", b =>
+                {
+                    b.Navigation("memberShipts");
+                });
+
+            modelBuilder.Entity("seance2.Models.Geners", b =>
+                {
+                    b.Navigation("Movies");
                 });
 #pragma warning restore 612, 618
         }

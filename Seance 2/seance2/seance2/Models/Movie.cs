@@ -13,6 +13,11 @@ namespace seance2.Models
         public Boolean withsubtitels { get; set; }
 
 
+        public List<Customer> customers { get; set; }
+
+        public virtual Geners? geners { get; set; }
+
+
 		public Movie() { }
         public Movie(int Id , string name,Boolean withsubtitels, DateTime relatedate) {
             this.Id = Id;

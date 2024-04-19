@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\application_class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13A9A1E9-FF81-424F-B9F3-DA54B93F7EBD}|application_class\\application_class.csproj|c:\\users\\ahmed\\onedrive\\bureau\\dwmm\\semester2\\.net\\application_class\\application_class\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13A9A1E9-FF81-424F-B9F3-DA54B93F7EBD}|application_class\\application_class.csproj|solutionrelative:application_class\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\application_class\\application_class\\appsettings.json",
+              "RelativeDocumentMoniker": "application_class\\appsettings.json",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\application_class\\application_class\\appsettings.json",
+              "RelativeToolTip": "application_class\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T08:37:31.204Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

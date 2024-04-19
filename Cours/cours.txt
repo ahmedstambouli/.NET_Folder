@@ -27,3 +27,42 @@ appdbcontext:dncontext
 	2)onModelcreating()	=> 
 
 kif tebda fama class fiha methode w yeritimenha class fiha meme methode donc tetsama virtual ovrrid 
+
+
+kif yebda 3ana model movie w guer w fama relation *----1 w normalmo, ta3ml public int geureId {get,set} 
+facultataiv 	hiya eli n7oto fiha ? nullable 
+		w ella ene7iya jemla w el .net yesna3 wa7da 
+		w zeda raw wa9tha man7otouch el clé etrangere 
+
+fully defined : n7to kol chay fel relation ya3na machi jay
+famma anotation w convention 
+
+_db.include(c=>c.nom_du_table) ==> el include bech tejbed el table w eli marbout biih w kol ma t7eb tejbed akther tziid .include w rahi terja3 dima el entity principale
+.thenInclude (.......) => raw yerja3 leli 9balha moch lel principale
+
+viewbag=> teb3ath lel view de manierre temporelle 
+
+
+*************************************************************************api fluent*************************************************************************
+n7otouha fel model bech najmo na3mlo change fel attribut
+modelbuilder.entity<movie>.hasproprty(name).hastype().hasmaxlength();
+
+
+*************************************************************************ling query*************************************************************************
+ling integre c# w raw ysahel el 5edma 
+bech ne5dmo biih lazem fama 3 7ajatte 
+	1)data source
+	2)creation requette
+	3)execute le requette
+
+numbers.where(condition).select().tolist()==> hadiya fi balset el select el 3adiya w tetsama .(dote) notaion syntaxe
+
+
+architecture:
+	dal -> bl -> UI  => appmonolitique
+bisnes logique (bl) => controller: raw bech expose haja ema raw maybadel chay 
+			service  
+IServes hewa eli bech ya7ki m3a el controller w hewa interface fiha el methode eli bech ne5dmehom fel service 
+IRep hiya eli bech ta7ki m3a el service 5ater najmo nesn3o methodatte 
+
+controller <-- ISrever|server <-- IRep|Repositories

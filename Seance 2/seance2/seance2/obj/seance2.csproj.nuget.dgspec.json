@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -42,13 +47,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.25, )"
+              "version": "[6.0.21, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.25, )"
+              "version": "[6.0.21, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -60,19 +65,7 @@
               "target": "Package",
               "version": "[6.0.16, )"
             },
-            "Microsoft.VisualStudio.Web.CodeGeneration": {
-              "target": "Package",
-              "version": "[6.0.16, )"
-            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.16, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Utils": {
-              "target": "Package",
-              "version": "[6.0.16, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
               "target": "Package",
               "version": "[6.0.16, )"
             }
@@ -96,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
