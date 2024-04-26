@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|c:\\users\\ahmed\\onedrive\\bureau\\dwmm\\semester2\\.net\\seance 2\\seance2\\seance2\\sreves\\classes\\srevicemovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|solutionrelative:seance2\\sreves\\classes\\srevicemovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|c:\\users\\ahmed\\onedrive\\bureau\\dwmm\\semester2\\.net\\seance 2\\seance2\\seance2\\sreves\\interfaces\\iservicemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|solutionrelative:seance2\\sreves\\interfaces\\iservicemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|c:\\users\\ahmed\\onedrive\\bureau\\dwmm\\semester2\\.net\\seance 2\\seance2\\seance2\\repos\\classes\\repomovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|solutionrelative:seance2\\repos\\classes\\repomovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|c:\\users\\ahmed\\onedrive\\bureau\\dwmm\\semester2\\.net\\seance 2\\seance2\\seance2\\repos\\interfaces\\irepomovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|solutionrelative:seance2\\repos\\interfaces\\irepomovies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|c:\\users\\ahmed\\onedrive\\bureau\\dwmm\\semester2\\.net\\seance 2\\seance2\\seance2\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|solutionrelative:seance2\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|c:\\users\\ahmed\\onedrive\\bureau\\dwmm\\semester2\\.net\\seance 2\\seance2\\seance2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|solutionrelative:seance2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|c:\\users\\ahmed\\onedrive\\bureau\\dwmm\\semester2\\.net\\seance 2\\seance2\\seance2\\seance2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6C13A6F-63C5-4B19-8313-97B1979C7CA2}|seance2\\seance2.csproj|solutionrelative:seance2\\seance2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +38,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SreviceMovies.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\Sreves\\classes\\SreviceMovies.cs",
+              "RelativeDocumentMoniker": "seance2\\Sreves\\classes\\SreviceMovies.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\Sreves\\classes\\SreviceMovies.cs",
+              "RelativeToolTip": "seance2\\Sreves\\classes\\SreviceMovies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T11:01:42.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Iservicemovie.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\Sreves\\Interfaces\\Iservicemovie.cs",
+              "RelativeDocumentMoniker": "seance2\\Sreves\\Interfaces\\Iservicemovie.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\Sreves\\Interfaces\\Iservicemovie.cs",
+              "RelativeToolTip": "seance2\\Sreves\\Interfaces\\Iservicemovie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T11:01:08.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "seance2\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "seance2\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:48:11.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepoMovies.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\repos\\classes\\RepoMovies.cs",
+              "RelativeDocumentMoniker": "seance2\\repos\\classes\\RepoMovies.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\repos\\classes\\RepoMovies.cs",
+              "RelativeToolTip": "seance2\\repos\\classes\\RepoMovies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADgvw8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:45:26.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepoMovies.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\repos\\Interfaces\\IRepoMovies.cs",
+              "RelativeDocumentMoniker": "seance2\\repos\\Interfaces\\IRepoMovies.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\repos\\Interfaces\\IRepoMovies.cs",
+              "RelativeToolTip": "seance2\\repos\\Interfaces\\IRepoMovies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:44:41.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "seance2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "seance2\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:43:51.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "seance2",
+              "DocumentMoniker": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\seance2.csproj",
+              "RelativeDocumentMoniker": "seance2\\seance2.csproj",
+              "ToolTip": "C:\\Users\\ahmed\\OneDrive\\Bureau\\DWMM\\SEMESTER2\\.NET\\Seance 2\\seance2\\seance2\\seance2.csproj",
+              "RelativeToolTip": "seance2\\seance2.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-19T10:42:23.018Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
